@@ -1,0 +1,24 @@
+{
+    "name": "node-express-https-socketio-redis",
+    "version": "1.0.0",
+    "author": "Abhinav Dobhal <abhinav.dobhal@gmail.com>",
+    "description": "Example of using Socket.io Redis Express & Node.js with HTTPS.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AbhinavDobhal/Node-Express-Https-Socketio-Redis.git"
+    },
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "express": "*",
+        "ioredis": "^3.2.2",
+        "redis": "^2.8.0",
+        "socket.io": "^2.0.4"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": "<=0.8.9"
+    }
+}
